@@ -36,7 +36,7 @@ function solution(A) {
 
     for (let i of A) {
         if (obj[i]) {
-            obj[i] += 1
+            obj[i] += 1;
         }
         else { 
             obj[i] = 1;
